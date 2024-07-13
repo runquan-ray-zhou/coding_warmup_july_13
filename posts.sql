@@ -48,3 +48,6 @@ CREATE DATABASE blog;
 
 
 -- Update the posts table to include a foreign key for the user who created the post
+
+-- Insert a new post into the posts table
+
