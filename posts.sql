@@ -15,10 +15,11 @@ CREATE DATABASE blog;
 -- created_at TIMESTAMP,
 -- updated_at TIMESTAMP
 
+CREATE TABLE posts ( id SERIAL PRIMARY KEY, title VARCHAR(255), body TEXT,created_at TIMESTAMP, updated_at TIMESTAMP );
+
  id | title | body | created_at | updated_at | name 
 ----+-------+------+------------+------------+------
 (0 rows)
-
 
 -- Alter posts table to include user name
 
